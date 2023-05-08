@@ -4,7 +4,7 @@ class Media:
     def array(self):
         return self.arrayNumeros
     
-    def inp():
+    def inp(self):
         print("introduzca un numero")
         return int(input())
     
