@@ -3,13 +3,13 @@ from unittest.mock import patch
 
 def test_add():
     media = Media()
-    assert len(media.arrayNumeros) == 0
+    assert len(media.array_numeros) == 0
     media.add(1)
-    assert len(media.arrayNumeros) == 1
+    assert len(media.array_numeros) == 1
     
 def test_media():
     media = Media()
-    media.arrayNumeros.clear()
+    media.array_numeros.clear()
     media.add(2)
     media.add(2)
     assert media.media() == 2
