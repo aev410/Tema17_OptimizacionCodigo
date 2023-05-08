@@ -1,8 +1,8 @@
 class Media:
-    arrayNumeros=[]
+    array_numeros=[]
     
     def array(self):
-        return self.arrayNumeros
+        return self.array_numeros
     
     def inp(self):
         print("introduzca un numero")
